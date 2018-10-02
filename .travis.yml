@@ -1,0 +1,26 @@
+language: java
+install: true
+
+jdk:
+  - oraclejdk8
+
+addons:
+  sonarcloud:
+    organization: "avsharapov-github"  
+    token:
+      secure: ${SONAR_TOKEN}
+  
+before_install:
+  - chmod +x gradlew
+  - ./gradlew dependencies || true  
+  
+script:
+  - ./gradlew build -s
+  - ./gradlew sonarqube
+ 
+ cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.sonar/cache'
+    - '$HOME/.gradle'
+    - '.gradle'

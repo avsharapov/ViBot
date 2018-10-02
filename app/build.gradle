@@ -1,0 +1,8 @@
+apply plugin: 'application'
+
+mainClassName = "ru.letnes.app.Main"
+
+dependencies {
+    compile 'log4j:log4j:1.2.17'
+    compile project(':core')
+}
