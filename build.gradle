@@ -1,28 +1,22 @@
-apply plugin: 'java'
-apply plugin: 'jacoco'
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+}
 
 plugins {
-  id "org.sonarqube" version "2.6.2"
+  id "org.sonarqube" version "2.6.1"
 }
 
-sonarqube {
-	properties {
-		property "sonar.projectName", "ViBot Project"
-		property "sonar.projectKey", "ru.letnes.vibot"
-	}
-}
+apply plugin: 'java'
+apply plugin: 'idea'
 
 subprojects {
     apply plugin: 'java'
 
     repositories {
         mavenCentral()
-		jcenter()
     }
 
-}
-
-buildScan {
-  licenseAgreementUrl = "https://gradle.com/terms-of-service"
-  licenseAgree = "yes"
 }

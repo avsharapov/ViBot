@@ -3,12 +3,6 @@ install: true
 
 jdk:
   - oraclejdk8
-
-addons:
-  sonarcloud:
-    organization: "avsharapov-github"  
-    token:
-      secure: ${SONAR_TOKEN}
   
 before_install:
   - chmod +x gradlew
@@ -16,11 +10,5 @@ before_install:
   
 script:
   - ./gradlew build -s
-  - ./gradlew sonarqube
+  - ./gradlew sonarqube -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=avsharapov-github -Dsonar.login=${SONAR_TOKEN}
  
- cache:
-  directories:
-    - '$HOME/.m2/repository'
-    - '$HOME/.sonar/cache'
-    - '$HOME/.gradle'
-    - '.gradle'

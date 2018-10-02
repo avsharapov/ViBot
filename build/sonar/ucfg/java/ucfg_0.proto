@@ -1,0 +1,37 @@
+
+;ru.letnes.core.FGService#getMeSomething()Ljava/lang/String;
+__unknown_file ("1*Á
+1n
+dD:\work\Repository\STUD\Sharapov Arkadiy\temp\ViBot\core\src\main\java\ru\letnes\core\FGService.java
+ 
+(©
+¦
+n
+dD:\work\Repository\STUD\Sharapov Arkadiy\temp\ViBot\core\src\main\java\ru\letnes\core\FGService.java
+ 
+(
+%0"__id*(*&
+ru.letnes.core.FGService"
+logger¦
+£
+n
+dD:\work\Repository\STUD\Sharapov Arkadiy\temp\ViBot\core\src\main\java\ru\letnes\core\FGService.java
+ 
+(
+%1"__id*%*#
+java.util.logging.Level"
+INFOõ
+ò
+n
+dD:\work\Repository\STUD\Sharapov Arkadiy\temp\ViBot\core\src\main\java\ru\letnes\core\FGService.java
+ 
+(<
+%2"Jjava.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;)V*
+
+%0*
+
+%1*
+Someone asks for something"
+n
+dD:\work\Repository\STUD\Sharapov Arkadiy\temp\ViBot\core\src\main\java\ru\letnes\core\FGService.java (
+	Something
