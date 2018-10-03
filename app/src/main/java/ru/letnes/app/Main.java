@@ -10,7 +10,14 @@ public class Main {
     public static void main(String[] args) {
         logger.log(Level.INFO, "It is app module");
         FGService fgService = new FGService();
-        String meSomething = fgService.getMeSomething();
+
+        String meSomething = new Main().getGetMeSomething(fgService);
         logger.log(Level.INFO, meSomething);
     }
+
+    protected String getGetMeSomething(FGService fgService) {
+        return fgService.getMeSomething();
+    }
+
+
 }
