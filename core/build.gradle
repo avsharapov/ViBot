@@ -1,3 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.letnes'
+version '1.0-SNAPSHOT'
+description = 'Core module.'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
 dependencies {
     compile 'log4j:log4j:1.2.17'
 }

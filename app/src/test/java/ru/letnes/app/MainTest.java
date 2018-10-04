@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import ru.letnes.core.FGService;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 import static org.mockito.MockitoAnnotations.initMocks;
 
@@ -26,5 +26,9 @@ class MainTest {
         when(fgService.getMeSomething()).thenReturn(VALUE);
         String getMeSomething = main.getGetMeSomething(fgService);
         assertEquals(getMeSomething, VALUE);
+        assertAll(
+                () -> assertTrue(true),
+                () -> assertTrue(true)
+        );
     }
 }

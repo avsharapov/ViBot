@@ -8,5 +8,6 @@
  */
 
 rootProject.name = 'ViBot'
+
 include 'app'
 include 'core'

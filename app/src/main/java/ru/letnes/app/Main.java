@@ -7,6 +7,7 @@ import java.util.logging.Logger;
 
 public class Main {
     private static Logger logger = Logger.getLogger(Main.class.getName());
+
     public static void main(String[] args) {
         logger.log(Level.INFO, "It is app module");
         FGService fgService = new FGService();
@@ -15,7 +16,7 @@ public class Main {
         logger.log(Level.INFO, meSomething);
     }
 
-    protected String getGetMeSomething(FGService fgService) {
+    String getGetMeSomething(FGService fgService) {
         return fgService.getMeSomething();
     }
 

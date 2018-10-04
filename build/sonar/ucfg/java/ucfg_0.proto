@@ -1,29 +1,29 @@
 
 ;ru.letnes.core.FGService#getMeSomething()Ljava/lang/String;
-__unknown_file ("1*Á
-1n
-dD:\work\Repository\STUD\Sharapov Arkadiy\temp\ViBot\core\src\main\java\ru\letnes\core\FGService.java
+__unknown_file ("1*¨
+1i
+_D:\work\Repository\STUD\Sharapov Arkadiy\ViBot\core\src\main\java\ru\letnes\core\FGService.java
  
-(©
-¦
-n
-dD:\work\Repository\STUD\Sharapov Arkadiy\temp\ViBot\core\src\main\java\ru\letnes\core\FGService.java
+(¤
+¡
+i
+_D:\work\Repository\STUD\Sharapov Arkadiy\ViBot\core\src\main\java\ru\letnes\core\FGService.java
  
 (
 %0"__id*(*&
 ru.letnes.core.FGService"
-logger¦
-£
-n
-dD:\work\Repository\STUD\Sharapov Arkadiy\temp\ViBot\core\src\main\java\ru\letnes\core\FGService.java
+logger¡
+ž
+i
+_D:\work\Repository\STUD\Sharapov Arkadiy\ViBot\core\src\main\java\ru\letnes\core\FGService.java
  
 (
 %1"__id*%*#
 java.util.logging.Level"
-INFOõ
-ò
-n
-dD:\work\Repository\STUD\Sharapov Arkadiy\temp\ViBot\core\src\main\java\ru\letnes\core\FGService.java
+INFOð
+í
+i
+_D:\work\Repository\STUD\Sharapov Arkadiy\ViBot\core\src\main\java\ru\letnes\core\FGService.java
  
 (<
 %2"Jjava.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;)V*
@@ -31,7 +31,7 @@ dD:\work\Repository\STUD\Sharapov Arkadiy\temp\ViBot\core\src\main\java\ru\letne
 %0*
 
 %1*
-Someone asks for something"
-n
-dD:\work\Repository\STUD\Sharapov Arkadiy\temp\ViBot\core\src\main\java\ru\letnes\core\FGService.java (
+Someone asks for something"z
+i
+_D:\work\Repository\STUD\Sharapov Arkadiy\ViBot\core\src\main\java\ru\letnes\core\FGService.java (
 	Something

@@ -9,6 +9,5 @@ before_install:
   - ./gradlew dependencies || true  
   
 script:
-  - ./gradlew build -s
-  - ./gradlew sonarqube -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=avsharapov-github -Dsonar.login=${SONAR_TOKEN}
+  - ./gradlew clean build sonarqube -s
  
